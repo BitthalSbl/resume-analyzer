@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+# keep .streamlit/config.toml (needed for deploy), ignore only secrets
+.streamlit/secrets.toml
+*.log
+.venv/
+venv/
+env/
